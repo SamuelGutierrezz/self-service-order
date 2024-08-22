@@ -95,10 +95,28 @@ npm install express
 ```
 npm install mysql2
 ```
-Now making sure WAMP is enabled and icon is green
+<h1>Now making sure WAMP is enabled and icon is green</h1>
+<h3>
+  MAKE SURE TO RUN THESE IN ORDER<BR>
+  <mark>OR ELSE setupDatabase.js WON'T FIRE OFF</mark>
+</h3>
+<br>
+first run
+<br>
+
+```
+node setupDatabase.js
+```
+
+<br>
+now run
+<br>
+
 ```
 node server.js
 ```
+
+<br>
 Now we can open up a browser and type localhost:3000 and see the webapp
 
 ![image](https://github.com/user-attachments/assets/05b5848a-9143-47fd-9533-0e03642dee7d)
