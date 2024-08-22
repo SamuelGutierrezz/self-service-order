@@ -78,7 +78,7 @@ Name it however you'd like <br><br>
 Using a gitbash terminal for windows
 
 ```
-cd yourfoldername  *assuming your in you desktop directory where you can see your new folder*
+cd yourfoldername  *assuming your in your desktop directory where you can see your new folder*
 ```
 now type 
 ```
