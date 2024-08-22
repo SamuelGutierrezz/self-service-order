@@ -66,7 +66,7 @@ https://nodejs.org/en
 
 <img width="200" alt="nodejswebsite2" src="https://github.com/user-attachments/assets/1eff4314-6f2e-4d0b-9f76-61f736d1757c">
 
-The dowload insrtuctions are straight forward  <br>
+The dowload instructions are straight forward  <br>
 and will install node.js and the npm(NodePackageManager)<br>
 in your path for it to be available for use
 
