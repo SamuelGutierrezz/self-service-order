@@ -15,6 +15,7 @@ After install is completed - you should have a pink Wamp icon <br>
 <h3>Clicking the WAMP icon will boot up WAMP</h3>
 After bootup - web companion icon in your tool menu <br>
 will turn from orange to green.
+**PLEASE NOT WE WILL KEEP HOST AS ROOT WITH NO PASSWORD**
 </p>
 
 ![image](https://github.com/user-attachments/assets/f72a7a30-8f71-478d-a9b6-2070f17a42e1)
@@ -32,8 +33,50 @@ will turn from orange to green.
 <br>
 <br>
 <h1>Installing Node.JS on your machine</h1>
-Install Node.js on your machine
 
-How is the package.json made?
+```Node Website
+https://nodejs.org/en
+```
+<br>
 
-npm install mysql
+The dowload insrtuctions are straight forward  <br>
+and will install in your path for it to be available for use
+![image](https://github.com/user-attachments/assets/809b1242-3ef6-4fa8-8f13-47788c2387e8)
+
+<h4>After installing Node.js on computer</h4>
+<h2>Lets copy the Repository</h2>
+Make a brand new folder on your desktop <br>
+Name it however you'd like <br><br>
+Using a gitbash terminal for windows
+
+```
+cd yourfoldername  *assuming your in you desktop directory where you can see your new folder*
+```
+now type 
+```
+git clone "https://github.com/SamuelGutierrezz/self-service-order.git"
+```
+Now go into cloned repo
+```
+cd self-service-order
+```
+IN THIS DIRECTORY WE'll INSTALL NECESSARY DEPENDENCIES
+```
+npm install express
+```
+```
+npm install mysql2
+```
+Now making sure WAMP is enabled and icon is green
+```
+node server.js
+```
+Now we can open up a browser and type localhost:3000 and see the webapp
+
+![image](https://github.com/user-attachments/assets/05b5848a-9143-47fd-9533-0e03642dee7d)
+
+
+
+
+
+
