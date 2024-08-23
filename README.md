@@ -72,19 +72,25 @@ in your path for it to be available for use
 
 
 <h4>After installing Node.js on computer</h4>
+<br><br><br>
 <h2>Lets copy the Repository</h2>
-Make a brand new folder on your desktop <br>
-Name it however you'd like <br><br>
+
+<h2>Make a brand new folder on your desktop</h2> <br>
+<h4>
+  This will act as the temporary folder so you can<br>
+  CLONE the Repo - Name it however you'd like <br><br>
+</h4>
+
 Using a gitbash terminal for windows
 
 ```
 cd yourfoldername  *assuming your in your desktop directory where you can see your new folder*
 ```
-now type 
+now type from within the folder you created 
 ```
 git clone "https://github.com/SamuelGutierrezz/self-service-order.git"
 ```
-Now go into cloned repo
+Now go into cloned repo *we have to be inside the self-service-order to run some files
 ```
 cd self-service-order
 ```
@@ -95,7 +101,7 @@ npm install express
 ```
 npm install mysql2
 ```
-<h1>Now making sure WAMP is enabled and icon is green</h1>
+<h1><mark>Now making sure WAMP is enabled and icon is green</mark></h1>
 <h3>
   MAKE SURE TO RUN THESE IN ORDER<BR>
   <mark>OR ELSE setupDatabase.js WON'T FIRE OFF</mark>
